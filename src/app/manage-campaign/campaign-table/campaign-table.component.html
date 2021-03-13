@@ -1,0 +1,44 @@
+<table mat-table [dataSource]="datasource" class="mat-elevation-z8">
+    <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef> DATE </th>
+        <td mat-cell *matCellDef="let element">
+            <span>{{element.campaignDate | date : 'MMM y, d'}}</span>
+            <span style="display: block;">{{element.dateDiffText}}</span>
+            
+
+        </td>
+    </ng-container>
+
+    <ng-container matColumnDef="campaign">
+        <th mat-header-cell *matHeaderCellDef> CAMPAIGN </th>
+        <td mat-cell *matCellDef="let element">
+            <div style="display: inline-block;">
+                <span><img [src]="element.image_url" [alt]="element.name" /></span>
+            </div>
+            <div style="display: inline-block;">
+                <span>{{element.name}} </span>
+                <span style="display: block;">{{element.region}}</span>
+            </div>
+        </td>
+    </ng-container>
+
+    <ng-container matColumnDef="view">
+        <th mat-header-cell *matHeaderCellDef> VIEW </th>
+        <td (click)="openPriceDialog(element.id)" mat-cell *matCellDef="let element"><img src="assets/Price.png" /><span> View Pricing </span></td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef> ACTIONS </th>
+        <td mat-cell *matCellDef="let element"> 
+            <img src="assets/file.png" /><span> CSV </span>
+            <img src="assets/statistics-report.png" /><span> Report </span>
+            <input (dateInput)="onDateChange(element.id);" style="visibility: hidden; width:5px;"
+                [(ngModel)]="element.campaignDate" matInput [matDatepicker]="campaignPicker">
+            <mat-datepicker-toggle matSuffix [for]="campaignPicker"></mat-datepicker-toggle>
+            <mat-datepicker #campaignPicker></mat-datepicker>
+            <mat-label>Schedule Again</mat-label> </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

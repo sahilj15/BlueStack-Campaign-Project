@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "campaignDate": "2021-03-15",
+        "name": "Test Whatsapp",
+        "region": "US",
+        "price": {
+            "firstMonth": 100,
+            "sixMonth": 500,
+            "year": 900
+        },
+        "csv": "Some CSV link for Whatsapp",
+        "report": "Report link",
+        "image_url": "assets/Bitmap.png"
+    },
+    {
+        "id": 2,
+        "campaignDate": "2021-03-17",
+        "name": "Super Jewels Quest",
+        "region": "CA",
+        "price": {
+            "firstMonth": 100,
+            "sixMonth": 500,
+            "year": 900
+        },
+        "csv": "Some CSV link for Super Jewels Quest",
+        "report": "Report link",
+        "image_url": "assets/Bitmap.png"
+    },
+    {
+        "id": 3,
+        "campaignDate": "2021-03-13",
+        "name": "Mole Slayer",
+        "region": "FR",
+        "price": {
+            "firstMonth": 100,
+            "sixMonth": 500,
+            "year": 900
+        },
+        "csv": "Some CSV link for Mole Slayer",
+        "report": "Report link",
+        "image_url": "assets/Bitmap.png"
+    },
+    {
+        "id": 4,
+        "campaignDate": "2021-03-11",
+        "name": "Mancala Mix",
+        "region": "JP",
+        "price": {
+            "firstMonth": 100,
+            "sixMonth": 500,
+            "year": 900
+        },
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Report link",
+        "image_url": "assets/Bitmap.png"
+    },
+    {
+        "id": 5,
+        "campaignDate": "2021-03-11",
+        "name": "Mancala Mix",
+        "region": "JP",
+        "price": {
+            "firstMonth": 100,
+            "sixMonth": 500,
+            "year": 900
+        },
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Report link",
+        "image_url": "assets/Bitmap.png"
+    },
+    {
+        "id": 6,
+        "campaignDate": "2021-03-11",
+        "name": "Mancala Mix",
+        "region": "JP",
+        "price": {
+            "firstMonth": 100,
+            "sixMonth": 500,
+            "year": 900
+        },
+        "csv": "Some CSV link for Mancala Mix",
+        "report": "Report link",
+        "image_url": "assets/Bitmap.png"
+    }
+]

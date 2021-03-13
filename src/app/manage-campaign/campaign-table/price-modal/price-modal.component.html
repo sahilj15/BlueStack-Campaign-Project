@@ -1,0 +1,19 @@
+<div mat-dialog-content>
+    <img [src]="data.image_url" [alt]="data.name" /><span>{{data.name}}</span>
+    <mat-label>Pricing</mat-label>
+    <div>
+        <span>1 Week - 1 Month</span>
+        <span>$ {{data.price.firstMonth}}</span>
+    </div>
+    <div>
+        <span>6 Month</span>
+        <span>$ {{data.price.sixMonth}}</span>
+    </div>
+    <div>
+        <span>1 Year</span>
+        <span>$ {{data.price.year}}</span>
+    </div>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onCloseClick()">Close</button>
+</div>
