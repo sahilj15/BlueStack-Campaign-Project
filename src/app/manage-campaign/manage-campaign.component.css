@@ -1,0 +1,16 @@
+.content {
+    position: absolute;
+    top: 60px;
+    left: 10vw;
+    right: 0;
+    height: auto;
+    background-color: white;
+    color: Black;
+}
+
+.content h1 {
+    color: #2B416C;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+}

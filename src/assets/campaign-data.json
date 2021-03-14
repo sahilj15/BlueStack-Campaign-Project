@@ -1,86 +1,86 @@
 [
     {
         "id": 1,
-        "campaignDate": "2021-03-15",
-        "name": "Test Whatsapp",
+        "campaignDate": "2021-03-22",
+        "name": "Auto Chess",
         "region": "US",
         "price": {
             "firstMonth": 100,
             "sixMonth": 500,
             "year": 900
         },
-        "csv": "Some CSV link for Whatsapp",
-        "report": "Report link",
-        "image_url": "assets/Bitmap.png"
+        "csv": "Some CSV link ",
+        "report": "Some Report link",
+        "image_url": "assets/auto_chess.png"
     },
     {
         "id": 2,
-        "campaignDate": "2021-03-17",
+        "campaignDate": "2021-03-25",
         "name": "Super Jewels Quest",
         "region": "CA",
         "price": {
-            "firstMonth": 100,
-            "sixMonth": 500,
-            "year": 900
+            "firstMonth": 200,
+            "sixMonth": 600,
+            "year": 1100
         },
         "csv": "Some CSV link for Super Jewels Quest",
-        "report": "Report link",
-        "image_url": "assets/Bitmap.png"
+        "report": "Some Report link",
+        "image_url": "assets/super_jewels_quest.png"
     },
     {
         "id": 3,
-        "campaignDate": "2021-03-13",
+        "campaignDate": "2021-03-15",
         "name": "Mole Slayer",
         "region": "FR",
         "price": {
-            "firstMonth": 100,
-            "sixMonth": 500,
-            "year": 900
+            "firstMonth": 80,
+            "sixMonth": 400,
+            "year": 800
         },
         "csv": "Some CSV link for Mole Slayer",
-        "report": "Report link",
-        "image_url": "assets/Bitmap.png"
+        "report": "Some Report link",
+        "image_url": "assets/mole_slayer.png"
     },
     {
         "id": 4,
-        "campaignDate": "2021-03-11",
+        "campaignDate": "2021-03-15",
         "name": "Mancala Mix",
         "region": "JP",
         "price": {
-            "firstMonth": 100,
-            "sixMonth": 500,
-            "year": 900
+            "firstMonth": 120,
+            "sixMonth": 580,
+            "year": 1000
         },
         "csv": "Some CSV link for Mancala Mix",
-        "report": "Report link",
-        "image_url": "assets/Bitmap.png"
+        "report": "Some Report link",
+        "image_url": "assets/mancala_mix.png"
     },
     {
         "id": 5,
-        "campaignDate": "2021-03-11",
-        "name": "Mancala Mix",
-        "region": "JP",
+        "campaignDate": "2021-03-10",
+        "name": "Flow Free",
+        "region": "US",
         "price": {
-            "firstMonth": 100,
-            "sixMonth": 500,
-            "year": 900
+            "firstMonth": 300,
+            "sixMonth": 700,
+            "year": 1300
         },
         "csv": "Some CSV link for Mancala Mix",
-        "report": "Report link",
-        "image_url": "assets/Bitmap.png"
+        "report": "Some Report link",
+        "image_url": "assets/flow_free.png"
     },
     {
         "id": 6,
-        "campaignDate": "2021-03-11",
-        "name": "Mancala Mix",
-        "region": "JP",
+        "campaignDate": "2021-03-06",
+        "name": "Need For Speed",
+        "region": "NY",
         "price": {
             "firstMonth": 100,
             "sixMonth": 500,
             "year": 900
         },
         "csv": "Some CSV link for Mancala Mix",
-        "report": "Report link",
-        "image_url": "assets/Bitmap.png"
+        "report": "Some Report link",
+        "image_url": "assets/need_for_speed.png"
     }
 ]

@@ -1,37 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-.toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    background-color: #1D0733;
-    color: white;
-    font-weight: 600;
-  }
+html, body {
+  height: 100%;
+}
 
-  .toolbar img {
-    margin: 10px 40px;
-    width: 130px;
-    height: 40px;
-  }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
-  .content {
-    position: absolute;
-    top: 60px;
-    left: 10vw;
-    right: 0;
-    height: auto;
-    background-color: white;
-    color: Black;
-    font-weight: 600;
-  }
+.d-block {
+  display: block;
+}
 
-  table {
-    width: 80vw;
-    
-  }
-
+.d-inline-block {
+  display: inline-block;
+}

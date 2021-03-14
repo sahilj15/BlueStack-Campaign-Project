@@ -1,0 +1,16 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #1D0733;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 10px 40px;
+  width: 130px;
+  height: 40px;
+}

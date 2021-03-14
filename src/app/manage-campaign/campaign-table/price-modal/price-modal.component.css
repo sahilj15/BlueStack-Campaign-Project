@@ -1,0 +1,50 @@
+.price-modal img.modal-image{
+    height: 70px;
+    width: 70px;
+    margin-top: 5px;
+}
+
+.price-modal div.name-region {
+    position: relative;
+    left: 10px;
+    bottom: 8px;
+}
+
+.price-modal span.region-text {
+    color: #BCC4D2;
+    display: block;
+    font-weight: 400;
+}
+
+.price-modal span.date-name {
+    font-weight: 500;
+}
+
+.price-modal div.sub-heading{
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+.price-modal div.pricing-section div{
+    margin-top: 10px;
+}
+
+.price-modal div.pricing-section span.duration-text{
+    color: #BCC4D2;
+}
+
+.price-modal div.pricing-section span.amount{
+    float: right;
+    font-weight: 500;
+}
+
+div.action-button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.action-button button{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 8px;
+}

@@ -1,12 +1,11 @@
-import * as moment from 'moment';
-
-export interface PriceInfo{
+// campaign and price model definition
+export interface PriceInfo {
     firstMonth: Number;
-    sixMonth:Number;
+    sixMonth: Number;
     year: Number;
 }
 
-export interface Campaign{
+export interface Campaign {
     id: number;
     campaignDate: string;
     dateDiffText: string;

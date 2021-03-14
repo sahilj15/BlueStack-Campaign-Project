@@ -9,13 +9,16 @@ import { CampaignDataService } from '../../services/campaign-data.service';
   styleUrls: ['./campaign-tabs.component.css']
 })
 export class CampaignTabsComponent implements OnInit {
+  // view child to get instance of tab group and static true to get access in oninit
   @ViewChild('currentTab', { static: true }) currentTab: MatTabGroup;
+
   constructor(private campaignDataService: CampaignDataService) { }
 
   ngOnInit(): void {
     this.currentTab.selectedIndex = 0;
   }
 
+  //handle campaign type tab change event and accordingly trigger rendering of table data using behavior object
   onTabSelect(event: any): void {
     switch (event.index) {
       case 0:

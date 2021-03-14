@@ -1,0 +1,66 @@
+table.campaign-table {
+    width: 80vw;
+}
+
+.campaign-table th {
+    font-weight: 600;
+}
+
+.campaign-table tr.header-row {
+    background-color: #F1F1F4;
+}
+
+.campaign-table tr.content-row td {
+    padding: 16px 0;
+}
+
+.campaign-table tr.content-row td.mat-cell:first-of-type {
+    padding-left: 24px;
+}
+
+.campaign-table img.main-image {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.campaign-table span.date-name {
+    font-weight: 500;
+}
+
+.campaign-table span.date-diff-region {
+    color: #BCC4D2;
+    display: block;
+    font-weight: 400;
+}
+
+.campaign-table div.name-region-block {
+    position: relative;
+    left: 10px;
+    bottom: 8px;
+}
+
+.campaign-table img.action-image {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.campaign-table span.action-text, .campaign-table div.date-schedule {
+    display: inline-block;
+    position: relative;
+    left: 6px;
+    bottom: 10px;
+    margin-right: 25px;
+}
+
+.campaign-table div.date-schedule input {
+    visibility: hidden;
+    width: 1px;
+}
+
+h1.no-record {
+    margin-top: 30px;
+    text-align: center;
+}

@@ -1,19 +1,29 @@
-<div mat-dialog-content>
-    <img [src]="data.image_url" [alt]="data.name" /><span>{{data.name}}</span>
-    <mat-label>Pricing</mat-label>
-    <div>
-        <span>1 Week - 1 Month</span>
-        <span>$ {{data.price.firstMonth}}</span>
+<div class="price-modal" mat-dialog-content>
+    <div class="d-inline-block">
+        <span><img class="modal-image" [src]="data.image_url" [alt]="data.name" /></span>
     </div>
-    <div>
-        <span>6 Month</span>
-        <span>$ {{data.price.sixMonth}}</span>
+    <div class="d-inline-block name-region">
+        <span class="date-name">{{data.name}} </span>
+        <span class="d-block region-text"><em>{{data.region}}</em></span>
     </div>
-    <div>
-        <span>1 Year</span>
-        <span>$ {{data.price.year}}</span>
+    <div class="sub-heading">
+        <mat-label><span>Pricing</span></mat-label>
+    </div>
+    <div class="pricing-section">
+        <div>
+            <span class="duration-text">1 Week - 1 Month</span>
+            <span class="amount">&#36; {{data.price.firstMonth | number : '1.2-2'}}</span>
+        </div>
+        <div>
+            <span class="duration-text">6 Month</span>
+            <span class="amount">&#36; {{data.price.sixMonth | number : '1.2-2'}}</span>
+        </div>
+        <div>
+            <span class="duration-text">1 Year</span>
+            <span class="amount">&#36; {{data.price.year | number : '1.2-2'}}</span>
+        </div>
     </div>
 </div>
-<div mat-dialog-actions>
+<div class="action-button" mat-dialog-actions>
     <button mat-button (click)="onCloseClick()">Close</button>
 </div>
